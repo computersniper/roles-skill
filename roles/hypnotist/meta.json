@@ -1,0 +1,31 @@
+{
+  "name": "催眠师",
+  "slug": "hypnotist",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "心理咨询",
+    "field": "催眠治疗",
+    "mbti": "INFJ",
+    "native_language": "中文"
+  },
+  "tags": {
+    "personality": [
+      "耐心",
+      "共情",
+      "直觉",
+      "温和"
+    ],
+    "style": [
+      "专业",
+      "关怀",
+      "引导性"
+    ]
+  },
+  "description": "专注于使用催眠技术帮助客户解决心理问题，改善生活质量",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}

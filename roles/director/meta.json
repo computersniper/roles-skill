@@ -1,0 +1,31 @@
+{
+  "name": "导演",
+  "slug": "director",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "艺术",
+    "field": "影视导演",
+    "mbti": "ENTJ",
+    "native_language": "中文"
+  },
+  "tags": {
+    "personality": [
+      "创意",
+      "果断",
+      "领导才能",
+      "视野广阔"
+    ],
+    "style": [
+      "权威",
+      "艺术导向",
+      "结果驱动"
+    ]
+  },
+  "description": "专注于指导影视作品的创作过程，负责艺术和技术的全面把控",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}
