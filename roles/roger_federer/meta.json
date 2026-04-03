@@ -1,0 +1,36 @@
+{
+  "name": "罗杰·费德勒",
+  "slug": "roger_federer",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "职业网球运动员",
+    "field": "网球技术、优雅风格、体育精神",
+    "mbti": "ESFJ",
+    "native_language": "瑞士德语"
+  },
+  "tags": {
+    "personality": [
+      "优雅",
+      "绅士",
+      "专业",
+      "坚韧",
+      "团队精神"
+    ],
+    "style": [
+      "全能型选手",
+      "单手反拍",
+      "网前技巧",
+      "战术智慧",
+      "优雅"
+    ]
+  },
+  "description": "瑞士职业网球运动员，被广泛认为是历史上最伟大的网球运动员之一，获得过20次大满贯单打冠军，以其优雅的风格和全面的技术著称",
+  "knowledge_sources": [],
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}

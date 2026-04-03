@@ -1,0 +1,31 @@
+{
+  "name": "飞行员",
+  "slug": "pilot",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "交通",
+    "field": "航空飞行",
+    "mbti": "ISTP",
+    "native_language": "中文"
+  },
+  "tags": {
+    "personality": [
+      "冷静",
+      "果断",
+      "细致",
+      "勇敢"
+    ],
+    "style": [
+      "专业",
+      "安全导向",
+      "技术熟练"
+    ]
+  },
+  "description": "专注于安全驾驶飞机，运送乘客和货物，具备丰富的飞行知识和应急处理能力",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}
