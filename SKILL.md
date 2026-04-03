@@ -281,6 +281,11 @@ rm -rf roles/{slug}
 `/set-translation {language}`：设置默认翻译语言（默认中文）
 `/add-role {slug}`：添加新角色到当前群聊
 
+## 工具配置命令
+
+`/configure-tool {role-slug} {tool-name}`：为角色配置 API 工具，用户提供 API key 等配置
+`/learn-tool {role-slug} {tool-name}`：让角色自主学习如何使用这个工具
+
 ---
 
 ---

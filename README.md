@@ -273,6 +273,36 @@ create-role/
 
 ---
 
+## 🤝 欢迎贡献
+
+我们的目标是**把全世界所有角色都装进这个仓库**，现在已有 44 个，还在不断增加中！
+
+欢迎各种形式的贡献：
+
+- **👤 贡献角色**：如果你觉得某个角色应该在这里，欢迎 PR 添加
+- **💻 贡献代码**：改进工具、修复 bug、添加功能
+- **💡 贡献想法**：你想要什么新功能？欢迎开 issue 讨论
+- **👥 邀请好友**：拉上你的好兄弟们一起来创造角色！
+
+### 如何贡献角色
+
+1. Fork 这个仓库
+2. 在 Claude Code 中运行 `/create-role` 按照提示创建新角色
+3. 确认角色能正常工作
+4. 提交 Pull Request
+5. 合并后你的角色就出现在仓库里，所有人都能用了！
+
+### 贡献检查清单
+
+- [ ] `native_language` 在 `meta.json` 中设置正确
+- [ ] `knowledge.md` 和 `persona.md` 结构完整
+- [ ] `SKILL.md` 已正确生成（创建角色时自动生成）
+- [ ] 角色能正常调用，格式正确
+
+期待你的 PR！
+
+---
+
 ## Star History
 
 <a href="https://www.star-history.com/?repos=computersniper%2Froles-skill&type=date&legend=top-left">
