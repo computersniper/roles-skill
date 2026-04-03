@@ -1,0 +1,237 @@
+<div align="center">
+
+# 众生.skill / roles.skill
+
+> *"人世间千万种角色，AI 替你留住。"*
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
+
+<br>
+
+**把世界上任何角色，蒸馏成你的 AI Skill。**
+
+想有个专属老师教你？把教材给他，生成了随时问。
+喜欢某个歌手？把歌单歌词给他，让他陪你聊音乐。
+需要心理开导？生成一个心理医生，随时听你倾诉。
+
+**众生皆可入技，万物皆可为师。**
+
+[安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [**English**](README_EN.md)
+
+</div>
+
+---
+
+## 🌟 同系列致敬
+
+本项目架构灵感来源于：
+
+- **[同事.skill](https://github.com/titanwings/colleague-skill)** by [titanwings](https://github.com/titanwings) - 首创"把人蒸馏成 AI Skill"双层架构
+- **[前任.skill](https://github.com/therealXiaomanChu/ex-skill)** by [therealXiaomanChu](https://github.com/therealXiaomanChu) - 将蒸馏架构推广到情感关系
+
+本项目在此基础上将场景从「特定人」推广到「任何角色」，致敬两位原作者的创意和开源精神。
+
+---
+
+## ✨ 能做什么
+
+| 角色 | 用法 |
+|------|------|
+| 👨‍🏫 **老师** | 上传教材/课件/笔记 → 生成这个老师，随时给你讲课答疑 |
+| 🎤 **歌手/音乐人** | 告诉他你喜欢的歌曲/专辑/风格 → 聊音乐、推荐歌曲、评论新歌 |
+| 🧠 **心理医生/咨询师** | 听你倾诉，帮你梳理情绪 |
+| 💪 **健身教练** | 根据你的身体数据和目标制定计划，指导动作 |
+| 🍳 **厨师** | 根据你冰箱里的材料教你做菜，调整口味 |
+| 👔 **职场导师** | 帮你改简历，模拟面试，解答职场困惑 |
+| 🧙 **人生导师** | 听你迷茫，给你建议 |
+| 📖 **说书人** | 给故事梗概，给你讲完整故事 |
+| 💼 **面试官** | 模拟面试，提问点评 |
+| 🎭 **演员** | 代入角色和你对戏 |
+| 🔮 **占卜师** | ... 你想开就开 |
+| **... 等等** | 只要你能想到，就能生成 |
+
+---
+
+## 📦 安装
+
+### Claude Code
+
+> **重要**：Claude Code 从 **git 仓库根目录** 的 `.claude/skills/` 查找 skill。请在正确的位置执行。
+
+```bash
+# 安装到当前项目（在 git 仓库根目录执行）
+mkdir -p .claude/skills
+git clone https://github.com/computersniper/roles-skill .claude/skills/create-role
+
+# 或安装到全局（所有项目都能用）
+git clone https://github.com/computersniper/roles-skill ~/.claude/skills/create-role
+```
+
+### OpenClaw
+
+```bash
+git clone https://github.com/computersniper/roles-skill ~/.openclaw/workspace/skills/create-role
+```
+
+### 依赖（可选）
+
+```bash
+pip3 install -r requirements.txt
+```
+
+---
+
+## 🚀 使用
+
+在 Claude Code 中输入：
+
+```
+/create-role
+```
+
+按提示输入：
+1. **角色名称**（必填）
+2. **基本描述**（一句话：职业、领域、风格，想到什么写什么）
+3. **性格标签**（一句话：MBTI、风格特点）
+
+所有字段均可跳过，仅凭描述也能生成。
+
+完成后用 `/{slug}` 调用该角色 Skill，开始对话。
+
+### 管理命令
+
+| 命令 | 说明 |
+|------|------|
+| `/list-roles` | 列出所有已创建的角色 |
+| `/{slug}` | 调用完整 Skill（专业知识 + 角色性格）|
+| `/{slug}-knowledge` | 仅专业知识 |
+| `/{slug}-persona` | 仅性格风格 |
+| `/role-rollback {slug} {version}` | 回滚到历史版本 |
+| `/delete-role {slug}` | 删除 |
+
+---
+
+## 🎯 功能特性
+
+### 生成的 Skill 结构
+
+每个角色 Skill 由两部分组成，共同驱动输出：
+
+| 部分 | 内容 |
+|------|------|
+| **Part A — Role Knowledge** | 专业领域知识、能力范围、工作方法、行事原则 |
+| **Part B — Persona** | 5 层性格结构：硬规则 → 身份 → 表达风格 → 说话语气 → 互动方式 |
+
+运行逻辑：`收到问题 → Persona 判断用什么风格回答 → Knowledge 给出专业内容 → 用角色的方式输出`
+
+### 支持的标签
+
+**领域**：教育、音乐、医疗、健身、美食、艺术、科技、商业、法律 ...
+
+**性格**：温柔、严厉、幽默、严肃、话痨、沉默、随性、完美主义 ...
+
+**MBTI**：16 型全支持
+
+### 数据源支持
+
+| 来源 | 说明 |
+|------|------|
+| PDF 教材/课件 | ✅ 直接读取 |
+| 图片/截图笔记 | ✅ OCR 读取 |
+| Markdown / TXT 笔记 | ✅ 直接读取 |
+| 网页链接 | ✅ 可读取 |
+| 直接粘贴文字 | ✅ 直接输入 |
+
+### 进化机制
+
+- **追加知识** → 提供新材料 → 自动分析增量 → 合并进对应部分，不覆盖已有结论
+- **对话纠正** → 说「他不会这样说，他应该是 xxx」→ 写入 Correction 层，立即生效
+- **版本管理** → 每次更新自动存档，支持回滚到任意历史版本
+
+---
+
+## 效果示例
+
+> 输入：`英语老师，十年教龄高考毕业班，要求严格，喜欢用例句讲解语法，ENTJ`
+
+**场景一：讲解语法**
+
+```
+用户      ❯ 帮我讲解一下非限制性定语从句
+
+英语老师.skill ❯ 来，我们看这个考点。高考年年考，一定要掌握。
+           先看例句：
+           "My brother, who lives in America, is coming to visit next week."
+           注意逗号，这就是非限制性和限制性的区别...
+```
+
+---
+
+> 输入：`周杰伦，华语流行，中国风，话不多，喜欢喝奶茶，INFP`
+
+**场景一：聊新歌**
+
+```
+用户      ❯ 你觉得最近的新专辑怎么样
+
+周杰伦.skill ❯ 嗯...我觉得还行啊，
+           做音乐嘛，自己开心最重要啦
+           （喝一口奶茶）要不要听听我最近写的demo？
+```
+
+---
+
+## 项目结构
+
+本项目遵循 [AgentSkills](https://agentskills.io) 开放标准，整个 repo 就是一个 skill：
+
+```
+create-role/
+├── SKILL.md              # skill 入口（官方 frontmatter）
+├── prompts/              # Prompt 模板
+│   ├── intake.md         #   对话式信息录入
+│   ├── knowledge_analyzer.md # 专业知识提取
+│   ├── persona_analyzer.md  # 性格行为提取（含标签翻译表）
+│   ├── knowledge_builder.md # knowledge.md 生成模板
+│   ├── persona_builder.md  # persona.md 五层结构模板
+│   ├── merger.md          # 增量 merge 逻辑
+│   └── correction_handler.md # 对话纠正处理
+├── tools/                # Python 工具
+│   ├── skill_writer.py   # Skill 文件管理
+│   └── version_manager.py # 版本存档与回滚
+├── roles/                # 生成的角色 Skill（gitignored）
+├── docs/PRD.md
+├── requirements.txt
+└── LICENSE
+```
+
+---
+
+## 📝 注意事项
+
+- **原材料质量决定还原度**：教材笔记 > 仅手动描述
+- 建议优先提供：这个角色**解决什么问题**、**常用什么方法**、**说话有什么特点**
+- 本项目只是根据你的描述生成一个 AI 角色，不代表真实人物观点
+
+---
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=computersniper%2Froles-skill&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=computersniper/roles-skill&type=date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=computersniper/roles-skill&type=date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=computersniper/roles-skill&type=date" />
+ </picture>
+</a>
+
+---
+
+<div align="center">
+
+MIT License © [computersniper](https://github.com/computersniper)
+
+</div>

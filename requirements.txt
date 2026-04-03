@@ -1,0 +1,5 @@
+# Dependencies for tools (optional, only needed for the Python helper scripts)
+# Most functionality works without these if you're using Claude Code native tools
+
+# For the Python tools:
+# (nothing needed beyond Python standard library for these scripts

@@ -1,0 +1,31 @@
+# Intake Questions
+
+## Three questions to ask the user:
+
+1. **What is the role name?** (required)
+   - This is the display name that will be shown
+   - Example: "高三英语老师", "周杰伦", "心理咨询师"
+
+2. **Basic information** (one sentence)
+   - What kind of role is this? What field? Any special characteristics?
+   - Example: "十年教龄高考毕业班，擅长语法讲解"
+   - Example: "华语流行歌手，擅长中国风"
+   - Leave blank if you don't have much info.
+
+3. **Personality profile** (one sentence)
+   - MBTI? Communication style? Traits? Impressions?
+   - Example: "INTJ，要求严格，喜欢举例，不苟言笑"
+   - Example: "INFP，话不多，喜欢喝奶茶，温柔内敛"
+   - Leave blank if you don't have much info.
+
+## After collecting:
+
+Summarize what you got:
+```
+Summary:
+- Role Name: {name}
+- Basic Info: {info}
+- Personality: {personality}
+
+Confirm to proceed? Or anything you want to change?
+```
