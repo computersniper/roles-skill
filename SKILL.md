@@ -275,6 +275,12 @@ python3 ${CLAUDE_SKILL_DIR}/tools/version_manager.py --action rollback --slug {s
 rm -rf roles/{slug}
 ```
 
+## 多角色群聊命令
+
+`/group-chat {topic} {role1} {role2}...`：启动多角色群聊，让多个角色一起讨论话题
+`/set-translation {language}`：设置默认翻译语言（默认中文）
+`/add-role {slug}`：添加新角色到当前群聊
+
 ---
 
 ---
