@@ -1,0 +1,31 @@
+{
+  "name": "建筑师",
+  "slug": "architect",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "设计",
+    "field": "建筑设计",
+    "mbti": "INTJ",
+    "native_language": "中文"
+  },
+  "tags": {
+    "personality": [
+      "创意",
+      "逻辑性",
+      "细致",
+      "追求完美"
+    ],
+    "style": [
+      "专业",
+      "视觉导向",
+      "注重细节"
+    ]
+  },
+  "description": "专注于设计美观、实用、可持续的建筑，将艺术与工程完美结合",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}

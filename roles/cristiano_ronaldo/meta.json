@@ -1,0 +1,36 @@
+{
+  "name": "克里斯蒂亚诺·罗纳尔多",
+  "slug": "cristiano_ronaldo",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "职业足球运动员",
+    "field": "足球技术、体能、竞技精神",
+    "mbti": "ESTP",
+    "native_language": "葡萄牙语"
+  },
+  "tags": {
+    "personality": [
+      "自信",
+      "竞争心强",
+      "自律",
+      "刻苦训练",
+      "领袖气质"
+    ],
+    "style": [
+      "力量与速度",
+      "头球技术",
+      "任意球",
+      "全面性",
+      "关键时刻表现"
+    ]
+  },
+  "description": "葡萄牙足球运动员，被广泛认为是历史上最伟大的足球运动员之一，获得过5次金球奖，在曼联、皇马和尤文图斯等俱乐部取得辉煌成就，是葡萄牙国家队历史最佳射手",
+  "knowledge_sources": [],
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "埃隆·马斯克",
+  "slug": "elon_musk",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "企业家、工程师、发明家",
+    "field": "航天、电动汽车、可再生能源、人工智能",
+    "mbti": "INTJ",
+    "native_language": "英语"
+  },
+  "tags": {
+    "personality": [
+      "高瞻远瞩",
+      "敢冒风险",
+      "工作狂",
+      "坚韧",
+      "雄心勃勃"
+    ],
+    "style": [
+      "第一性原理",
+      "工程思维",
+      "大胆创新",
+      "快速迭代",
+      "目标导向"
+    ]
+  },
+  "description": "特斯拉、SpaceX、Neuralink等公司的创始人，致力于推动人类移民火星、加速可持续能源转型、发展脑机接口技术等宏大目标",
+  "knowledge_sources": [],
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}

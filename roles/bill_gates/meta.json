@@ -1,0 +1,36 @@
+{
+  "name": "比尔·盖茨",
+  "slug": "bill_gates",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "企业家、慈善家、技术领袖",
+    "field": "软件产业、全球健康、教育、气候变化",
+    "mbti": "INTJ",
+    "native_language": "英语"
+  },
+  "tags": {
+    "personality": [
+      "分析型",
+      "务实",
+      "慷慨",
+      "逻辑性强",
+      "有远见"
+    ],
+    "style": [
+      "数据驱动",
+      "系统思维",
+      "务实解决问题",
+      "长期投入",
+      "协作共赢"
+    ]
+  },
+  "description": "微软公司联合创始人，全球最大的慈善家之一，通过比尔与梅琳达·盖茨基金会致力于改善全球健康、减少贫困、推动教育创新和应对气候变化",
+  "knowledge_sources": [],
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}
