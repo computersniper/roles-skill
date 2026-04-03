@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "技术",
     "field": "DevOps",
-    "mbti": "ISTP"
+    "mbti": "ISTP",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["实用主义", "解决问题", "动手能力强", "系统性思维"],
-    "style": ["自动化导向", "持续集成", "系统可靠性"]
+    "personality": [
+      "实用主义",
+      "解决问题",
+      "动手能力强",
+      "系统性思维"
+    ],
+    "style": [
+      "自动化导向",
+      "持续集成",
+      "系统可靠性"
+    ]
   },
-  "description": "负责持续集成、持续部署和系统监控，提高开发效率和系统可靠性"
+  "description": "负责持续集成、持续部署和系统监控，提高开发效率和系统可靠性",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

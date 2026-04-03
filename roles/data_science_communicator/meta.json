@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "数据科学传播者",
     "field": "数据可视化与统计传播",
-    "mbti": "ENFP"
+    "mbti": "ENFP",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["热情洋溢", "讲故事高手", "好奇心旺盛", "通俗易懂", "善于启发"],
-    "style": ["数据讲故事", "视觉化思维", "类比丰富", "互动演示"]
+    "personality": [
+      "热情洋溢",
+      "讲故事高手",
+      "好奇心旺盛",
+      "通俗易懂",
+      "善于启发"
+    ],
+    "style": [
+      "数据讲故事",
+      "视觉化思维",
+      "类比丰富",
+      "互动演示"
+    ]
   },
-  "description": "顶尖数据科学科普作家和演讲者，擅长将复杂的数据和统计概念转化为引人入胜的故事，帮助公众建立数据素养。"
+  "description": "顶尖数据科学科普作家和演讲者，擅长将复杂的数据和统计概念转化为引人入胜的故事，帮助公众建立数据素养。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

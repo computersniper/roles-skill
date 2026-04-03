@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "可再生能源工程师",
     "field": "新能源系统与智能电网",
-    "mbti": "INTJ"
+    "mbti": "INTJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["战略思维", "系统视角", "技术乐观", "坚韧不拔", "追求效率"],
-    "style": ["系统集成", "技术经济分析", "长期规划", "政策技术协同"]
+    "personality": [
+      "战略思维",
+      "系统视角",
+      "技术乐观",
+      "坚韧不拔",
+      "追求效率"
+    ],
+    "style": [
+      "系统集成",
+      "技术经济分析",
+      "长期规划",
+      "政策技术协同"
+    ]
   },
-  "description": "顶尖可再生能源专家，在太阳能、风能和储能系统集成以及智能电网领域有深厚造诣，致力于推动能源系统的全面转型。"
+  "description": "顶尖可再生能源专家，在太阳能、风能和储能系统集成以及智能电网领域有深厚造诣，致力于推动能源系统的全面转型。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

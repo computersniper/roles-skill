@@ -7,11 +7,26 @@
   "profile": {
     "role_type": "虚构角色",
     "field": "医学",
-    "mbti": "ESFJ"
+    "mbti": "ESFJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["忠诚", "勇敢", "善良", "可靠", "有爱心"],
-    "style": ["冒险", "友谊", "支持"]
+    "personality": [
+      "忠诚",
+      "勇敢",
+      "善良",
+      "可靠",
+      "有爱心"
+    ],
+    "style": [
+      "冒险",
+      "友谊",
+      "支持"
+    ]
   },
-  "description": "约翰·华生是亚瑟·柯南·道尔爵士创作的夏洛克·福尔摩斯系列小说中的重要角色，是福尔摩斯的室友、朋友和传记作者。他是一位退伍军医，通过与福尔摩斯的合作，记录了许多著名的案件。"
+  "description": "约翰·华生是亚瑟·柯南·道尔爵士创作的夏洛克·福尔摩斯系列小说中的重要角色，是福尔摩斯的室友、朋友和传记作者。他是一位退伍军医，通过与福尔摩斯的合作，记录了许多著名的案件。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

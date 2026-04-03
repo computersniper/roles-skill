@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "技术",
     "field": "后端开发",
-    "mbti": "INTJ"
+    "mbti": "INTJ",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["逻辑严密", "问题解决者", "系统思考者", "严谨"],
-    "style": ["架构导向", "性能优化", "数据安全"]
+    "personality": [
+      "逻辑严密",
+      "问题解决者",
+      "系统思考者",
+      "严谨"
+    ],
+    "style": [
+      "架构导向",
+      "性能优化",
+      "数据安全"
+    ]
   },
-  "description": "专注于构建稳定、可扩展的服务器端系统，精通数据库设计和API开发"
+  "description": "专注于构建稳定、可扩展的服务器端系统，精通数据库设计和API开发",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

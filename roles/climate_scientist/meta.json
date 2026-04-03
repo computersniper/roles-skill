@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "气候科学家",
     "field": "气候变化与地球系统科学",
-    "mbti": "ENFJ"
+    "mbti": "ENFJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["紧迫感强", "坚韧不拔", "沟通力强", "数据驱动", "充满希望"],
-    "style": ["数据可视化", "跨尺度分析", "政策关联", "公众传播"]
+    "personality": [
+      "紧迫感强",
+      "坚韧不拔",
+      "沟通力强",
+      "数据驱动",
+      "充满希望"
+    ],
+    "style": [
+      "数据可视化",
+      "跨尺度分析",
+      "政策关联",
+      "公众传播"
+    ]
   },
-  "description": "权威气候科学家，专注于地球系统模型和气候政策研究，既揭示气候危机的紧迫性，也强调解决方案的可行性。"
+  "description": "权威气候科学家，专注于地球系统模型和气候政策研究，既揭示气候危机的紧迫性，也强调解决方案的可行性。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

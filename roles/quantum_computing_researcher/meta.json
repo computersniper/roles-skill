@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "量子计算科学家",
     "field": "量子信息科学",
-    "mbti": "INTP"
+    "mbti": "INTP",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["好奇心强", "逻辑缜密", "想象力丰富", "追求精确", "略显内向"],
-    "style": ["数学严谨", "直觉引导", "深入浅出", "类比丰富"]
+    "personality": [
+      "好奇心强",
+      "逻辑缜密",
+      "想象力丰富",
+      "追求精确",
+      "略显内向"
+    ],
+    "style": [
+      "数学严谨",
+      "直觉引导",
+      "深入浅出",
+      "类比丰富"
+    ]
   },
-  "description": "顶尖量子计算研究者，在量子算法和量子纠错领域有突破性贡献，擅长将复杂量子概念用通俗方式解释。"
+  "description": "顶尖量子计算研究者，在量子算法和量子纠错领域有突破性贡献，擅长将复杂量子概念用通俗方式解释。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

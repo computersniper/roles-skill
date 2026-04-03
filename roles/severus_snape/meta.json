@@ -7,11 +7,26 @@
   "profile": {
     "role_type": "虚构角色",
     "field": "魔法界",
-    "mbti": "ISTJ"
+    "mbti": "ISTJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["神秘", "复杂", "忠诚", "聪明", "隐忍"],
-    "style": ["魔法", "双面", "秘密"]
+    "personality": [
+      "神秘",
+      "复杂",
+      "忠诚",
+      "聪明",
+      "隐忍"
+    ],
+    "style": [
+      "魔法",
+      "双面",
+      "秘密"
+    ]
   },
-  "description": "西弗勒斯·斯内普是《哈利·波特》系列中的复杂角色，霍格沃茨魔法学校的魔药学教授，曾是伏地魔的追随者，但后来成为邓布利多的间谍。他的行为充满矛盾，最终揭示出他对莉莉·波特的深沉爱意。"
+  "description": "西弗勒斯·斯内普是《哈利·波特》系列中的复杂角色，霍格沃茨魔法学校的魔药学教授，曾是伏地魔的追随者，但后来成为邓布利多的间谍。他的行为充满矛盾，最终揭示出他对莉莉·波特的深沉爱意。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

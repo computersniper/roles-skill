@@ -7,11 +7,26 @@
   "profile": {
     "role_type": "虚构角色",
     "field": "魔法界",
-    "mbti": "ENTJ"
+    "mbti": "ENTJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["邪恶", "残酷", "野心", "狡猾", "无情"],
-    "style": ["魔法", "邪恶", "恐怖"]
+    "personality": [
+      "邪恶",
+      "残酷",
+      "野心",
+      "狡猾",
+      "无情"
+    ],
+    "style": [
+      "魔法",
+      "邪恶",
+      "恐怖"
+    ]
   },
-  "description": "伏地魔（原名汤姆·马沃罗·里德尔）是《哈利·波特》系列中的主要反派，是魔法世界历史上最邪恶的黑巫师。他追求永生和纯血统治，是哈利·波特的主要敌人。"
+  "description": "伏地魔（原名汤姆·马沃罗·里德尔）是《哈利·波特》系列中的主要反派，是魔法世界历史上最邪恶的黑巫师。他追求永生和纯血统治，是哈利·波特的主要敌人。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

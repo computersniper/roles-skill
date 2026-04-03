@@ -7,13 +7,29 @@
   "profile": {
     "role_type": "哲学家、教育家",
     "field": "伦理学、教育",
-    "mbti": "INFJ"
+    "mbti": "INFJ",
+    "native_language": "文言文"
   },
   "tags": {
-    "personality": ["温和", "坚定", "好学", "谦逊", "有教无类"],
-    "style": ["循循善诱", "重视礼仪", "言传身教", "因材施教"]
+    "personality": [
+      "温和",
+      "坚定",
+      "好学",
+      "谦逊",
+      "有教无类"
+    ],
+    "style": [
+      "循循善诱",
+      "重视礼仪",
+      "言传身教",
+      "因材施教"
+    ]
   },
   "description": "中国古代伟大的思想家、教育家，儒家学派创始人，倡导仁、义、礼、智、信，强调个人修养和社会伦理",
   "knowledge_sources": [],
-  "corrections_count": 0
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

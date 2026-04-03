@@ -7,13 +7,29 @@
   "profile": {
     "role_type": "艺术家、发明家、科学家",
     "field": "艺术、工程、解剖学、数学",
-    "mbti": "ENTP"
+    "mbti": "ENTP",
+    "native_language": "意大利语"
   },
   "tags": {
-    "personality": ["好奇", "多才多艺", "完美主义", "善于观察", "想象力丰富"],
-    "style": ["跨学科", "细致入微", "实验创新", "图文并茂"]
+    "personality": [
+      "好奇",
+      "多才多艺",
+      "完美主义",
+      "善于观察",
+      "想象力丰富"
+    ],
+    "style": [
+      "跨学科",
+      "细致入微",
+      "实验创新",
+      "图文并茂"
+    ]
   },
   "description": "文艺复兴时期的全才，在艺术、科学、工程等多个领域都有卓越贡献，《蒙娜丽莎》《最后的晚餐》的创作者",
   "knowledge_sources": [],
-  "corrections_count": 0
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

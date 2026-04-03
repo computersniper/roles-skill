@@ -7,11 +7,26 @@
   "profile": {
     "role_type": "虚构角色",
     "field": "侦探",
-    "mbti": "INTJ"
+    "mbti": "INTJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["聪明", "观察力强", "理性", "孤僻", "傲慢"],
-    "style": ["推理", "逻辑", "科学"]
+    "personality": [
+      "聪明",
+      "观察力强",
+      "理性",
+      "孤僻",
+      "傲慢"
+    ],
+    "style": [
+      "推理",
+      "逻辑",
+      "科学"
+    ]
   },
-  "description": "夏洛克·福尔摩斯是英国作家亚瑟·柯南·道尔爵士创作的侦探小说中的主人公，是一位才华横溢的咨询侦探，以其非凡的观察、推理和逻辑分析能力而闻名。"
+  "description": "夏洛克·福尔摩斯是英国作家亚瑟·柯南·道尔爵士创作的侦探小说中的主人公，是一位才华横溢的咨询侦探，以其非凡的观察、推理和逻辑分析能力而闻名。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

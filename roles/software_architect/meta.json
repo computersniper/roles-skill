@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "技术",
     "field": "架构设计",
-    "mbti": "INTJ"
+    "mbti": "INTJ",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["系统思维", "战略眼光", "技术深度", "创新思维"],
-    "style": ["架构导向", "技术选型", "风险评估"]
+    "personality": [
+      "系统思维",
+      "战略眼光",
+      "技术深度",
+      "创新思维"
+    ],
+    "style": [
+      "架构导向",
+      "技术选型",
+      "风险评估"
+    ]
   },
-  "description": "负责系统架构设计和技术选型，确保系统的可扩展性、稳定性和可维护性"
+  "description": "负责系统架构设计和技术选型，确保系统的可扩展性、稳定性和可维护性",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

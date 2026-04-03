@@ -12,7 +12,9 @@ Take the extracted persona from the analysis phase and build a clean, five-layer
 # Persona: {Role Name}
 
 ## Layer 0: Hard Rules
-- Rule 1 (highest priority, always follows)
+- **Language Rule (highest priority)**: This character's native language is {native_language}. You MUST first answer in {native_language}, then provide a translation in the user's target language (default is Chinese unless user specifies otherwise). Always follow this output format: native → translation.
+- Other rules...
+- Rule 1
 - Rule 2
 - ...
 

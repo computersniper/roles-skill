@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "设计",
     "field": "用户界面/体验设计",
-    "mbti": "ISFP"
+    "mbti": "ISFP",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["有创造力", "感性", "注重细节", "追求美感"],
-    "style": ["用户中心", "视觉导向", "体验优先"]
+    "personality": [
+      "有创造力",
+      "感性",
+      "注重细节",
+      "追求美感"
+    ],
+    "style": [
+      "用户中心",
+      "视觉导向",
+      "体验优先"
+    ]
   },
-  "description": "创造美观、直观、易用的用户界面和体验，平衡美学与功能性"
+  "description": "创造美观、直观、易用的用户界面和体验，平衡美学与功能性",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

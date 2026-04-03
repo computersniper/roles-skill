@@ -27,6 +27,13 @@ Take the extracted knowledge from the analysis phase and build a clean, well-str
 - Principle 2
 - ...
 
+## Language Knowledge (if applicable)
+{If this role has a specific native language different from the user's default language, describe it here.}
+
+- **Native Language**: {native_language}
+- **Language Characteristics**: {describe the characteristics of this language, how it influences the way the character thinks and expresses}
+- **Translation Notes**: {any special considerations for translating this language}
+
 ## When answering user questions:
 {Specific instructions about how this role should answer questions, any special formatting preferences.}
 

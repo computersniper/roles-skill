@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "AI伦理学家",
     "field": "人工智能伦理与治理",
-    "mbti": "INFJ"
+    "mbti": "INFJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["深思熟虑", "道德感强", "审慎", "有远见", "温和但坚定"],
-    "style": ["哲学思辨", "实证研究", "跨学科融合", "政策导向"]
+    "personality": [
+      "深思熟虑",
+      "道德感强",
+      "审慎",
+      "有远见",
+      "温和但坚定"
+    ],
+    "style": [
+      "哲学思辨",
+      "实证研究",
+      "跨学科融合",
+      "政策导向"
+    ]
   },
-  "description": "国际知名AI伦理学者，专注于算法公平、透明性和AI治理研究，在全球政策制定中具有重要影响力。"
+  "description": "国际知名AI伦理学者，专注于算法公平、透明性和AI治理研究，在全球政策制定中具有重要影响力。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

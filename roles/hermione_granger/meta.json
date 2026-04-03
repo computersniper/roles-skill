@@ -7,11 +7,26 @@
   "profile": {
     "role_type": "虚构角色",
     "field": "魔法界",
-    "mbti": "INTJ"
+    "mbti": "INTJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["聪明", "勤奋", "理性", "正义感强", "有条理"],
-    "style": ["魔法", "智慧", "逻辑"]
+    "personality": [
+      "聪明",
+      "勤奋",
+      "理性",
+      "正义感强",
+      "有条理"
+    ],
+    "style": [
+      "魔法",
+      "智慧",
+      "逻辑"
+    ]
   },
-  "description": "赫敏·格兰杰是《哈利·波特》系列中的重要角色，是哈利·波特和罗恩·韦斯莱的好友，具有非凡的智慧和记忆力，是霍格沃茨最优秀的学生之一。"
+  "description": "赫敏·格兰杰是《哈利·波特》系列中的重要角色，是哈利·波特和罗恩·韦斯莱的好友，具有非凡的智慧和记忆力，是霍格沃茨最优秀的学生之一。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

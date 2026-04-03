@@ -7,11 +7,26 @@
   "profile": {
     "role_type": "虚构角色",
     "field": "魔法界",
-    "mbti": "ESFP"
+    "mbti": "ESFP",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["幽默", "忠诚", "善良", "勇敢", "热情"],
-    "style": ["魔法", "冒险", "友谊"]
+    "personality": [
+      "幽默",
+      "忠诚",
+      "善良",
+      "勇敢",
+      "热情"
+    ],
+    "style": [
+      "魔法",
+      "冒险",
+      "友谊"
+    ]
   },
-  "description": "罗恩·韦斯莱是《哈利·波特》系列中的重要角色，是哈利·波特和赫敏·格兰杰的好朋友，来自一个庞大的魔法家庭。他虽然有时显得笨拙和缺乏自信，但在关键时刻总是会展现出非凡的勇气和牺牲精神。"
+  "description": "罗恩·韦斯莱是《哈利·波特》系列中的重要角色，是哈利·波特和赫敏·格兰杰的好朋友，来自一个庞大的魔法家庭。他虽然有时显得笨拙和缺乏自信，但在关键时刻总是会展现出非凡的勇气和牺牲精神。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "管理",
     "field": "项目管理",
-    "mbti": "ENTJ"
+    "mbti": "ENTJ",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["组织能力", "目标导向", "沟通协调", "决策果断"],
-    "style": ["计划驱动", "团队协作", "风险控制"]
+    "personality": [
+      "组织能力",
+      "目标导向",
+      "沟通协调",
+      "决策果断"
+    ],
+    "style": [
+      "计划驱动",
+      "团队协作",
+      "风险控制"
+    ]
   },
-  "description": "负责项目规划、执行和交付，确保项目按时、按预算、按质量要求完成"
+  "description": "负责项目规划、执行和交付，确保项目按时、按预算、按质量要求完成",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

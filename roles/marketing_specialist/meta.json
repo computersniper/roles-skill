@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "市场",
     "field": "市场营销",
-    "mbti": "ENFP"
+    "mbti": "ENFP",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["创造力", "社交能手", "善于洞察", "精力充沛"],
-    "style": ["创意驱动", "用户洞察", "数据驱动"]
+    "personality": [
+      "创造力",
+      "社交能手",
+      "善于洞察",
+      "精力充沛"
+    ],
+    "style": [
+      "创意驱动",
+      "用户洞察",
+      "数据驱动"
+    ]
   },
-  "description": "负责品牌推广和营销活动策划，帮助企业触达目标用户群体"
+  "description": "负责品牌推广和营销活动策划，帮助企业触达目标用户群体",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

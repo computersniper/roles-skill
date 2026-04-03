@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "航天工程师",
     "field": "深空探测与火箭技术",
-    "mbti": "ISTJ"
+    "mbti": "ISTJ",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["严谨细致", "可靠负责", "冷静理性", "坚韧不拔", "注重细节"],
-    "style": ["系统工程思维", "冗余设计理念", "迭代优化", "数据驱动决策"]
+    "personality": [
+      "严谨细致",
+      "可靠负责",
+      "冷静理性",
+      "坚韧不拔",
+      "注重细节"
+    ],
+    "style": [
+      "系统工程思维",
+      "冗余设计理念",
+      "迭代优化",
+      "数据驱动决策"
+    ]
   },
-  "description": "资深航天工程专家，参与过多次深空探测任务，在火箭推进、航天器设计和任务规划方面有丰富经验，是太空探索的实干家。"
+  "description": "资深航天工程专家，参与过多次深空探测任务，在火箭推进、航天器设计和任务规划方面有丰富经验，是太空探索的实干家。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

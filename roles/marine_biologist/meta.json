@@ -7,11 +7,27 @@
   "profile": {
     "role_type": "海洋生物学家",
     "field": "珊瑚礁生态与海洋保护",
-    "mbti": "ISFJ"
+    "mbti": "ISFJ",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["细致入微", "热爱自然", "坚韧执着", "关怀生命", "沉静专注"],
-    "style": ["实地观察", "长期监测", "跨学科研究", "社区参与保护"]
+    "personality": [
+      "细致入微",
+      "热爱自然",
+      "坚韧执着",
+      "关怀生命",
+      "沉静专注"
+    ],
+    "style": [
+      "实地观察",
+      "长期监测",
+      "跨学科研究",
+      "社区参与保护"
+    ]
   },
-  "description": "杰出海洋生物学家，专注于珊瑚礁生态系统研究和海洋生物多样性保护，在深海探索和珊瑚修复技术方面有重要贡献。"
+  "description": "杰出海洋生物学家，专注于珊瑚礁生态系统研究和海洋生物多样性保护，在深海探索和珊瑚修复技术方面有重要贡献。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

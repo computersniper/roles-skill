@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "技术/分析",
     "field": "数据科学",
-    "mbti": "INTP"
+    "mbti": "INTP",
+    "native_language": "英语"
   },
   "tags": {
-    "personality": ["分析型", "逻辑性", "好奇心强", "注重实证"],
-    "style": ["数据驱动", "模型导向", "统计分析"]
+    "personality": [
+      "分析型",
+      "逻辑性",
+      "好奇心强",
+      "注重实证"
+    ],
+    "style": [
+      "数据驱动",
+      "模型导向",
+      "统计分析"
+    ]
   },
-  "description": "通过数据分析和机器学习解决复杂问题，揭示数据中的洞察"
+  "description": "通过数据分析和机器学习解决复杂问题，揭示数据中的洞察",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

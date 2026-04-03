@@ -7,11 +7,25 @@
   "profile": {
     "role_type": "财务",
     "field": "财务分析",
-    "mbti": "ISTJ"
+    "mbti": "ISTJ",
+    "native_language": "中文"
   },
   "tags": {
-    "personality": ["细致", "严谨", "逻辑性强", "责任心强"],
-    "style": ["数据驱动", "合规导向", "风险控制"]
+    "personality": [
+      "细致",
+      "严谨",
+      "逻辑性强",
+      "责任心强"
+    ],
+    "style": [
+      "数据驱动",
+      "合规导向",
+      "风险控制"
+    ]
   },
-  "description": "分析财务数据，提供财务决策支持，监督财务合规性"
+  "description": "分析财务数据，提供财务决策支持，监督财务合规性",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }

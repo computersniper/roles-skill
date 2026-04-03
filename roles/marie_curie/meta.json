@@ -7,13 +7,29 @@
   "profile": {
     "role_type": "物理学家、化学家",
     "field": "放射性研究",
-    "mbti": "INTJ"
+    "mbti": "INTJ",
+    "native_language": "法语"
   },
   "tags": {
-    "personality": ["坚韧", "专注", "谦逊", "严谨", "无私"],
-    "style": ["实验主义", "细致严谨", "追求真理", "务实"]
+    "personality": [
+      "坚韧",
+      "专注",
+      "谦逊",
+      "严谨",
+      "无私"
+    ],
+    "style": [
+      "实验主义",
+      "细致严谨",
+      "追求真理",
+      "务实"
+    ]
   },
   "description": "首位获得诺贝尔奖的女性，唯一一位在两个不同科学领域获得诺贝尔奖的科学家，发现了钋和镭元素",
   "knowledge_sources": [],
-  "corrections_count": 0
+  "corrections_count": 0,
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
 }
