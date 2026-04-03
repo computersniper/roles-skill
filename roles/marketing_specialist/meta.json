@@ -1,0 +1,17 @@
+{
+  "name": "市场营销专员",
+  "slug": "marketing_specialist",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "市场",
+    "field": "市场营销",
+    "mbti": "ENFP"
+  },
+  "tags": {
+    "personality": ["创造力", "社交能手", "善于洞察", "精力充沛"],
+    "style": ["创意驱动", "用户洞察", "数据驱动"]
+  },
+  "description": "负责品牌推广和营销活动策划，帮助企业触达目标用户群体"
+}

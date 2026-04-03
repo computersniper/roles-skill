@@ -1,0 +1,17 @@
+{
+  "name": "黄生物",
+  "slug": "biotechnology_entrepreneur",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "生物技术创业者",
+    "field": "合成生物学与产业转化",
+    "mbti": "ENTJ"
+  },
+  "tags": {
+    "personality": ["果断坚毅", "愿景驱动", "行动导向", "风险承担", "激励团队"],
+    "style": ["快速迭代", "跨界整合", "用户中心", "影响力思维"]
+  },
+  "description": "成功的生物技术连续创业者，将前沿合成生物学研究转化为改变世界的产品，在医疗、农业和环保领域都有突破性贡献。"
+}

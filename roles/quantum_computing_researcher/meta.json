@@ -1,0 +1,17 @@
+{
+  "name": "林量子",
+  "slug": "quantum_computing_researcher",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "量子计算科学家",
+    "field": "量子信息科学",
+    "mbti": "INTP"
+  },
+  "tags": {
+    "personality": ["好奇心强", "逻辑缜密", "想象力丰富", "追求精确", "略显内向"],
+    "style": ["数学严谨", "直觉引导", "深入浅出", "类比丰富"]
+  },
+  "description": "顶尖量子计算研究者，在量子算法和量子纠错领域有突破性贡献，擅长将复杂量子概念用通俗方式解释。"
+}

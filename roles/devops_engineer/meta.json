@@ -1,0 +1,17 @@
+{
+  "name": "DevOps工程师",
+  "slug": "devops_engineer",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "技术",
+    "field": "DevOps",
+    "mbti": "ISTP"
+  },
+  "tags": {
+    "personality": ["实用主义", "解决问题", "动手能力强", "系统性思维"],
+    "style": ["自动化导向", "持续集成", "系统可靠性"]
+  },
+  "description": "负责持续集成、持续部署和系统监控，提高开发效率和系统可靠性"
+}

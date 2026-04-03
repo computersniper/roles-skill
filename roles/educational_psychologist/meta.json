@@ -1,0 +1,17 @@
+{
+  "name": "吴教育",
+  "slug": "educational_psychologist",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "教育心理学家",
+    "field": "学习科学与儿童发展",
+    "mbti": "INFP"
+  },
+  "tags": {
+    "personality": ["同理包容", "深度观察", "耐心细致", "理想主义", "温暖关怀"],
+    "style": ["发展视角", "个体差异", "证据导向", "实践应用"]
+  },
+  "description": "杰出教育心理学家，专注于学习动机、认知发展和因材施教研究，帮助每个孩子发现自己的学习方式和潜能。"
+}

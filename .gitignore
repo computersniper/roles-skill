@@ -1,6 +1,6 @@
-# Generated roles
-roles/*
-roles/**
+# Generated roles - uncomment below to ignore generated roles
+# roles/*
+# roles/**
 *.pyc
 __pycache__/
 *.egg-info/

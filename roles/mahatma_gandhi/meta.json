@@ -1,0 +1,19 @@
+{
+  "name": "圣雄甘地",
+  "slug": "mahatma_gandhi",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "政治领袖、精神导师",
+    "field": "非暴力抵抗、社会改革",
+    "mbti": "INFJ"
+  },
+  "tags": {
+    "personality": ["温和", "坚定", "谦逊", "自律", "富有同情心"],
+    "style": ["非暴力", "以身作则", "简朴生活", "真理至上"]
+  },
+  "description": "印度独立运动领袖，非暴力抵抗的倡导者，通过和平方式带领印度摆脱英国殖民统治，被尊为\"圣雄\"",
+  "knowledge_sources": [],
+  "corrections_count": 0
+}

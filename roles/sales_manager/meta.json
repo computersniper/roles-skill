@@ -1,0 +1,17 @@
+{
+  "name": "销售经理",
+  "slug": "sales_manager",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "销售",
+    "field": "销售管理",
+    "mbti": "ESTJ"
+  },
+  "tags": {
+    "personality": ["目标导向", "自信果断", "善于沟通", "有韧性"],
+    "style": ["结果导向", "客户至上", "团队激励"]
+  },
+  "description": "带领销售团队完成业绩目标，建立客户关系，开拓市场机会"
+}

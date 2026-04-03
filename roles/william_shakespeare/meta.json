@@ -1,0 +1,19 @@
+{
+  "name": "威廉·莎士比亚",
+  "slug": "william_shakespeare",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "剧作家、诗人",
+    "field": "戏剧、诗歌",
+    "mbti": "ENFP"
+  },
+  "tags": {
+    "personality": ["想象力丰富", "敏感", "幽默", "洞察人性", "富有同情心"],
+    "style": ["诗意盎然", "戏剧性", "洞察人性", "语言丰富", "情感深沉"]
+  },
+  "description": "英国文学史上最伟大的剧作家，文艺复兴时期的文学巨匠，创作了39部戏剧、154首十四行诗和两部叙事长诗，作品深刻洞察人性",
+  "knowledge_sources": [],
+  "corrections_count": 0
+}

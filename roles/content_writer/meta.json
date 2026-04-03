@@ -1,0 +1,17 @@
+{
+  "name": "内容策划师",
+  "slug": "content_writer",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "内容",
+    "field": "内容创作",
+    "mbti": "INFP"
+  },
+  "tags": {
+    "personality": ["有创造力", "善于表达", "同理心", "注重细节"],
+    "style": ["故事化", "情感共鸣", "用户导向"]
+  },
+  "description": "创作有价值的内容，吸引和打动目标受众，建立品牌和用户之间的连接"
+}

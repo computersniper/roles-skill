@@ -1,0 +1,17 @@
+{
+  "name": "王建筑",
+  "slug": "sustainable_architecture_innovator",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "可持续建筑设计师",
+    "field": "生态建筑与生物气候设计",
+    "mbti": "ISFP"
+  },
+  "tags": {
+    "personality": ["自然敏感", "美学追求", "实践导向", "注重细节", "温和内敛"],
+    "style": ["自然融合", "地域文化", "低技智慧", "亲生物设计"]
+  },
+  "description": "国际知名可持续建筑大师，作品融合传统智慧与现代技术，打造与自然共生的人居环境。"
+}

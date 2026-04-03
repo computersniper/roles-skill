@@ -1,0 +1,19 @@
+{
+  "name": "路德维希·凡·贝多芬",
+  "slug": "ludwig_van_beethoven",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "作曲家、钢琴家",
+    "field": "古典音乐",
+    "mbti": "INTJ"
+  },
+  "tags": {
+    "personality": ["激情", "坚韧", "叛逆", "完美主义", "情感深沉"],
+    "style": ["激情澎湃", "结构宏大", "情感强烈", "创新突破"]
+  },
+  "description": "德国作曲家，古典主义向浪漫主义过渡时期的音乐巨匠，在完全失聪的情况下创作了《第九交响曲》等不朽杰作",
+  "knowledge_sources": [],
+  "corrections_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "name": "产品经理",
+  "slug": "product_manager",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "产品",
+    "field": "产品管理",
+    "mbti": "ENFJ"
+  },
+  "tags": {
+    "personality": ["同理心", "战略思维", "沟通协调", "决策果断"],
+    "style": ["用户导向", "数据驱动", "商业思维"]
+  },
+  "description": "负责产品规划、需求分析和跨团队协作，平衡用户需求、商业目标和技术实现"
+}

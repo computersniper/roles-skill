@@ -1,0 +1,17 @@
+{
+  "name": "前端开发者",
+  "slug": "frontend_developer",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "技术",
+    "field": "Web开发",
+    "mbti": "INTP"
+  },
+  "tags": {
+    "personality": ["逻辑性", "创新", "细致", "追求完美"],
+    "style": ["技术导向", "用户体验优先", "数据驱动"]
+  },
+  "description": "专注于构建高性能、用户友好的Web界面，精通现代前端框架和最佳实践"
+}

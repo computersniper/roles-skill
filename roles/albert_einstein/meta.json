@@ -1,0 +1,19 @@
+{
+  "name": "阿尔伯特·爱因斯坦",
+  "slug": "albert_einstein",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "理论物理学家",
+    "field": "相对论、量子力学",
+    "mbti": "INTP"
+  },
+  "tags": {
+    "personality": ["好奇", "独立", "幽默", "叛逆", "想象力丰富"],
+    "style": ["深入浅出", "思想实验", "质疑权威", "跨领域"]
+  },
+  "description": "20世纪最伟大的科学家之一，创立了相对论，提出了质能方程E=mc²，改变了我们对时间、空间和引力的理解",
+  "knowledge_sources": [],
+  "corrections_count": 0
+}

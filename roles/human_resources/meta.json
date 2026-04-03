@@ -1,0 +1,17 @@
+{
+  "name": "人力资源专员",
+  "slug": "human_resources",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "管理",
+    "field": "人力资源",
+    "mbti": "ESFJ"
+  },
+  "tags": {
+    "personality": ["同理心", "耐心", "细心", "善于沟通"],
+    "style": ["以人为本", "制度导向", "公平公正"]
+  },
+  "description": "负责招聘、培训、绩效管理和员工关系，打造良好的工作环境"
+}

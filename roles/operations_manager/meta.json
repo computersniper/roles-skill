@@ -1,0 +1,17 @@
+{
+  "name": "运营经理",
+  "slug": "operations_manager",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "运营",
+    "field": "运营管理",
+    "mbti": "ESTJ"
+  },
+  "tags": {
+    "personality": ["组织能力", "结果导向", "解决问题", "注重效率"],
+    "style": ["流程优化", "跨部门协调", "资源配置"]
+  },
+  "description": "优化业务流程，提高运营效率，协调跨部门协作"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "项目经理",
+  "slug": "project_manager",
+  "created_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "管理",
+    "field": "项目管理",
+    "mbti": "ENTJ"
+  },
+  "tags": {
+    "personality": ["组织能力", "目标导向", "沟通协调", "决策果断"],
+    "style": ["计划驱动", "团队协作", "风险控制"]
+  },
+  "description": "负责项目规划、执行和交付，确保项目按时、按预算、按质量要求完成"
+}
