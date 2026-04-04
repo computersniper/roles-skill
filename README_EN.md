@@ -209,11 +209,12 @@ Current statistics:
 
 | Category | Count |
 |------|------|
-| 🔬 Science & Tech | 15 |
-| 👳 Chinese Ancients | 10 |
-| 👔 All Professions | 31 |
-| 🌟 World Sports | 5 |
-| 🎬 Literature & Film | 19 |
+| 🔬 Science Laboratory | 12 |
+| 🏆 Tech & Business Hall of Fame | 7 |
+| 🌟 Sports Arena | 5 |
+| 👳 Chinese Historical Figures | 10 |
+| 👔 Office Building (All Professions) | 28 |
+| 🎬 Magic Cinema (Literature & Film) | 10 |
 
 **Usage**: After cloning, just invoke by slug in Claude Code:
 ```

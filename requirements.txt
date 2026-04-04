@@ -1,5 +1,5 @@
 # Dependencies for tools (optional, only needed for the Python helper scripts)
 # Most functionality works without these if you're using Claude Code native tools
 
-# For the Python tools:
-# (nothing needed beyond Python standard library for these scripts
+# For the Python tools (required when running tool generation and existing tools):
+requests>=2.25.0
