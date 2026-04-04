@@ -155,6 +155,25 @@ git clone https://github.com/computersniper/roles-skill ~/.claude/skills/create-
 
 ---
 
+## 自動生成工具
+
+**依角色之性，自動生成 Python 工具，令角色真有計算之能！**
+
+| 角色類型 | 自動生成工具 |
+|----------|--------------|
+| 數據科學家 | 數據分析、統計檢驗工具 |
+| 氣候科學家 | 氣候數據 API 查詢工具 |
+| 航天工程師 | 軌道力學計算工具 |
+| 氣象預報員 | 天氣 API 查詢工具 |
+| 金融分析師 | 股價 API 查詢工具 |
+| ... | ... 人工智能依角色自動判斷生成 |
+
+工作流程：創建角色時 → AI 判需何工具 → 自動生成完整 Python 骨架 → 角色即刻擁有工具能力
+
+支持多種認證方式：API Key / Bearer Token / OAuth 2.0 / Basic Auth / 無需認證
+
+---
+
 ## 現成角色
 
 本倉庫已預置 **七十二** 角色，克隆後直接調用，開箱即用。你也可以用 `/create-role` 繼續創造更多。
@@ -189,7 +208,8 @@ create-role/
 │   └── correction_handler.md # 對話糾正處理
 ├── tools/                # Python 工具
 │   ├── skill_writer.py   # Skill 文件管理
-│   └── version_manager.py # 版本存檔與回滾
+│   ├── version_manager.py # 版本存檔與回滾
+│   └── tool_generator.py # 自動工具代碼生成
 ├── roles/                # 生成的角色 Skill（gitignored）
 ├── docs/PRD.md
 ├── requirements.txt

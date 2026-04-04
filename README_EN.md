@@ -172,6 +172,23 @@ Every role defines its `native_language`. Output in native language first, then 
 - No need for you to write code — AI does all the learning
 - Continuous evolution, gets better with use
 
+### Automatic Tool Generation
+
+**Automatically generate Python tools based on role type, so your role gets real computation capabilities!**
+
+| Role Type | Auto-generated Tool |
+|-----------|---------------------|
+| Data Scientist | Data analysis & statistical testing toolkit |
+| Climate Scientist | Climate data API client |
+| Aerospace Engineer | Orbital mechanics calculator |
+| Weather Forecaster | Weather API client |
+| Financial Analyst | Stock price API client |
+| ... | ... AI will automatically determine based on role type |
+
+Workflow: When creating a role → AI determines what tools are needed → automatically generates complete Python scaffolding → role gets tool capability immediately
+
+Supports multiple authentication methods: API Key / Bearer Token / OAuth 2.0 / Basic Auth / No authentication
+
 ### Evolution Mechanism
 
 - **Append knowledge** → automatically analyze incremental content → merge without overwriting existing conclusions
