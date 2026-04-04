@@ -85,7 +85,7 @@ git clone https://github.com/computersniper/roles-skill .claude/skills/create-ro
 git clone https://github.com/computersniper/roles-skill ~/.claude/skills/create-role
 ```
 
-### 方式二：完整安装
+### 法二：完整安装
 
 **第一步**：安装 Claude Code（如果你还没安装）
 
