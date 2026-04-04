@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./images/首图.jpg" alt="Banner" width="75%">
+
 # roles.skill /众生.skill
 
 > *"All roles in the world, AI preserves them for you."*
@@ -19,7 +21,7 @@ Want a personal trainer/psychiatrist/interviewer available 24/7?<br>
 **Put the whole world into Claude. Summon anyone you want, instantly.**<br>
 **Any person, any thing, can be a skill — learn from anyone, anything.**
 
-[Installation](#installation) · [Usage](#usage) · [Examples](#examples) · [**中文**](README.md)
+[Installation](#installation) · [Usage](#usage) · [Examples](#examples) · [**中文**](README.md) · [**古文**](README_GUWEN.md)
 
 </div>
 

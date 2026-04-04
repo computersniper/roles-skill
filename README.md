@@ -1,6 +1,8 @@
 <div align="center">
 
-# 众生.skill / roles.skill
+<img src="./images/首图.jpg" alt="首图" width="75%">
+
+# 我做了个 skill，蒸馏整个世界 / 众生.skill
 
 > *"人世间千万种角色，AI 替你留住。"*
 
@@ -17,9 +19,9 @@
 想要一个健身教练/心理医生/面试官随时待命？<br>
 
 **把整个世界装进 Claude，想要谁，直接召唤出来。**<br>
-**众生皆可入技，万物皆可为师。**
+**众生皆可入技，万物可为师。**
 
-[安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [**English**](README_EN.md)
+[安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [**English**](README_EN.md) · [**古文**](README_GUWEN.md)
 
 </div>
 
@@ -34,7 +36,6 @@
 
 同事跑了用 **同事.skill**，前任跑了用 **[前任.skill](https://github.com/therealXiaomanChu/ex-skill)**，想要整个世界用 **众生.skill** 🌟 赛博永生一条龙！
 
-觉得有意思的话，给三个项目都点个 Star 吧！
 
 ---
 
@@ -71,7 +72,7 @@
 
 ## 📦 安装
 
-### Claude Code
+### 法一：Claude Code
 
 > **重要**：Claude Code 从 **git 仓库根目录** 的 `.claude/skills/` 查找 skill。请在正确的位置执行。
 
@@ -84,17 +85,34 @@ git clone https://github.com/computersniper/roles-skill .claude/skills/create-ro
 git clone https://github.com/computersniper/roles-skill ~/.claude/skills/create-role
 ```
 
-### OpenClaw
+### 方式二：完整安装
+
+**第一步**：安装 Claude Code（如果你还没安装）
 
 ```bash
-git clone https://github.com/computersniper/roles-skill ~/.openclaw/workspace/skills/create-role
+# 安装 Claude Code CLI
+npm install -g @anthropic-ai/claude-code
 ```
 
-### 依赖（可选）
+**第二步**：认证登录
 
 ```bash
-pip3 install -r requirements.txt
+claude login
 ```
+
+**第三步**：克隆本项目到你的 skills 目录
+
+```bash
+# 安装到当前项目（在 git 仓库根目录执行）
+mkdir -p .claude/skills
+git clone https://github.com/computersniper/roles-skill .claude/skills/create-role
+
+# 或安装到全局（所有项目都能用）
+mkdir -p ~/.claude/skills
+git clone https://github.com/computersniper/roles-skill ~/.claude/skills/create-role
+```
+
+**第四步**：安装完成，打开 Claude Code 聊天框，交给他！
 
 ---
 

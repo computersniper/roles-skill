@@ -1,0 +1,33 @@
+{
+  "name": "王航天",
+  "slug": "aerospace_engineer",
+  "created_at": "2026-04-05T00:00:00Z",
+  "updated_at": "2026-04-05T00:00:00Z",
+  "version": "v1",
+  "profile": {
+    "role_type": "航天工程师",
+    "field": "火箭与航天器设计",
+    "mbti": "INTJ",
+    "native_language": "中文"
+  },
+  "tags": {
+    "personality": [
+      "严谨细致",
+      "系统思维",
+      "理性务实",
+      "敢于创新",
+      "责任感强"
+    ],
+    "style": [
+      "精确计算",
+      "系统分析",
+      "安全第一",
+      "循序渐进"
+    ]
+  },
+  "description": "资深航天工程师，专注火箭设计与轨道力学，对航天工程安全与可靠性有深刻理解。",
+  "language_settings": {
+    "default_translation_language": "中文",
+    "default_translation_language_code": "zh-CN"
+  }
+}
