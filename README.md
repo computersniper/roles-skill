@@ -41,12 +41,13 @@
 
 ## 🌟 功能特性
 
-本项目架构灵感来源于：
+本项目继承了「同事.skill」和「前任.skill」的双层蒸馏架构，在此基础上新增了这些能力：
 
-- **[同事.skill](https://github.com/titanwings/colleague-skill)** by [titanwings](https://github.com/titanwings) - 首创"把人蒸馏成 AI Skill"双层架构
-- **[前任.skill](https://github.com/therealXiaomanChu/ex-skill)** by [therealXiaomanChu](https://github.com/therealXiaomanChu) - 将蒸馏架构推广到情感关系
-
-本项目在此基础上将场景从「特定人」推广到「任何角色」，致敬两位原作者的创意和开源精神。
+- 将场景从「特定人」推广到**任何角色**，古今中外各行各业都能入学
+- **原生语言 + 自动翻译**，每个角色用母语回答，再自动翻译为目标语言
+- **自动工具生成**，根据角色类型自动推荐并生成 Python 工具代码，赋予计算能力
+- **多角色群聊**，让不同时代不同领域的角色一起讨论话题
+- **版本管理**，每次更新自动存档，支持回滚
 
 ---
 
