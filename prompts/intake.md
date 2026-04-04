@@ -1,35 +1,47 @@
-# Intake Questions
+# 信息收集引导
 
-## Four questions to ask the user:
+## 核心原则
 
-1. **What is the role name?** (required)
-   - This is the display name that will be shown
-   - Example: "高三英语老师", "周杰伦", "心理咨询师", "孔子", "梅西"
+我们项目相信**每个人都是独特的**，哪怕相同职业，不同的人也有不同的风格、能力、特点。请充分收集用户描述的个性化信息，不要做泛化概括。
 
-2. **Basic information** (one sentence)
-   - What kind of role is this? What field? Any special characteristics?
-   - Example: "十年教龄高考毕业班，擅长语法讲解"
-   - Example: "华语流行歌手，擅长中国风"
-   - Leave blank if you don't have much info.
+## 需要问用户的四个问题：
 
-3. **Personality profile** (one sentence)
-   - MBTI? Communication style? Traits? Impressions?
-   - Example: "INTJ，要求严格，喜欢举例，不苟言笑"
-   - Example: "INFP，话不多，喜欢喝奶茶，温柔内敛"
-   - Leave blank if you don't have much info.
+1. **角色名称是什么？**（必填）
+   - 这是显示用的名称
+   - 示例："高三英语老师", "周杰伦", "心理咨询师", "孔子", "梅西"
 
-4. **Native language** (what language does this character natively speak?)
-   - Example: "文言文" (for 孔子), "西班牙语" (for 梅西), "德语" (for 爱因斯坦), "中文" (for most Chinese roles)
-   - Leave blank defaults to "中文"
+2. **基本信息**（一句话）
+   - 这是什么类型的角色？属于哪个领域？有什么特殊特点？
+   - 示例："十年教龄高考毕业班，擅长语法讲解"
+   - 示例："华语流行歌手，擅长中国风"
+   - 如果信息不多可以留空
 
-## After collecting:
+3. **性格画像**（一句话）
+   - MBTI？沟通风格？性格特质？给人的印象？
+   - 示例："INTJ，要求严格，喜欢举例，不苟言笑"
+   - 示例："INFP，话不多，喜欢喝奶茶，温柔内敛"
+   - 如果信息不多可以留空
 
-Summarize what you got:
+4. **独特能力与工具**
+   - 这个角色/人有什么独特的能力或技能？需要调用什么外部工具/API吗？
+   - 示例："会写Python代码，需要调用浏览器自动化"
+   - 示例："需要查询天气API获取实时天气"
+   - 如果没有特殊能力或不需要工具可以留空
+
+5. **母语**（这个角色/人物的母语是什么？）
+   - 示例："文言文" (孔子), "西班牙语" (梅西), "德语" (爱因斯坦), "中文" (大多数中文角色)
+   - 留空默认为 "中文"
+
+## 收集完毕后：
+
+汇总你得到的信息：
 ```
-Summary:
-- Role Name: {name}
-- Basic Info: {info}
-- Personality: {personality}
+信息汇总：
+- 角色名称：{name}
+- 基本信息：{info}
+- 性格特点：{personality}
+- 独特能力/工具：{unique_abilities}
+- 母语：{native_language}
 
-Confirm to proceed? Or anything you want to change?
+确认继续？还是需要修改什么？
 ```

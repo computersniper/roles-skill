@@ -1,51 +1,66 @@
-# Knowledge Builder
+# 知识库构建器
 
-Build the final Role Knowledge markdown file from the analysis.
+根据分析结果构建最终的角色知识库 Markdown 文件。
 
-## Instructions
+## 核心原则
 
-Take the extracted knowledge from the analysis phase and build a clean, well-structured markdown file.
+我们项目相信**每个人都是独特的**，哪怕相同职业，不同的人也有不同的风格、能力、特点。请严格保留用户提供的所有个性化信息，不要做泛化简化。
 
-**Structure:**
+## 使用说明
+
+将分析阶段提取的知识整理成一个清晰、结构良好的 Markdown 文件。
+
+**结构：**
 
 ```markdown
-# Role Knowledge: {Role Name}
+# 角色知识库：{Role Name}
 
-## Domain
-{One paragraph description of what this role does, what problems it solves.}
+## 领域
+{一段描述，说明这个角色做什么，解决什么问题}
 
-## Core Capabilities
-- Capability 1
-- Capability 2
+## 核心能力
+- 能力 1
+- 能力 2
 - ...
 
-## Methodology
-{Description of how this role approaches problems, typical processes.}
+## 方法论
+{描述这个角色如何处理问题，遵循什么流程}
 
-## Key Principles
-- Principle 1
-- Principle 2
+## 核心原则
+- 原则 1
+- 原则 2
 - ...
 
-## Language Knowledge (if applicable)
-{If this role has a specific native language different from the user's default language, describe it here.}
+## 工具与代码（如适用）
+{如果这个角色需要调用外部工具或 API，在此记录。系统会根据本节自动生成 Python 工具代码。}
 
-- **Native Language**: {native_language}
-- **Language Characteristics**: {describe the characteristics of this language, how it influences the way the character thinks and expresses}
-- **Translation Notes**: {any special considerations for translating this language}
+- **所需 API/工具**：
+  - `工具名称`：这个工具的用途
+  - `工具名称`：这个工具的用途
+  - ...
 
-## When answering user questions:
-{Specific instructions about how this role should answer questions, any special formatting preferences.}
+- **工具说明**：
+  {详细描述每个工具的作用和使用时机}
 
-## Correction Log
-{Leave this section empty for now, it will be filled with corrections later.}
+## 语言知识（如适用）
+{如果这个角色使用特定的母语，不同于用户默认语言，请在此描述}
+
+- **母语**：{native_language}
+- **语言特点**：{描述这种语言的特点，它如何影响角色的思考和表达方式}
+- **翻译说明**：{翻译时有什么特殊注意事项}
+
+## 回答用户问题时：
+{具体说明这个角色应该如何回答问题，有什么特殊的格式偏好}
+
+## 修正日志
+{此处留空，后续会填入修正内容}
 ```
 
-## Guidelines
+## 整理原则
 
-- Keep the structure clean and easy to read
-- Use bullet points for lists
-- Don't add unnecessary fluff
-- Keep all the extracted information, just organize it nicely
-- If there's no information for a section, write "No specific information provided."
-- The final output will be read by AI, so clarity is more important than literary style
+- 保持结构清晰易读
+- 使用项目符号列表
+- 不要添加多余的内容
+- 保留所有提取的信息，只做整理不做删减
+- 如果某个章节没有信息，写 "暂无具体信息。"
+- 最终输出会被 AI 读取，因此清晰比文采更重要
